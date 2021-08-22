@@ -16,4 +16,5 @@ if lastCall == today :
     menucmd('GE','16')
     upuser(int(secLevel))
 else :
+  gotoxy(1,24)
   writeln('First call of the day brother. Call again to be offered invisibleness.')
