@@ -10,10 +10,12 @@ Copy or Symlink ml-askinvisible.mpy to /mystic/scripts directory
 
 Make a new prelogin entry like this;
 
-Command    | (GY) Execute Python 2 Script    
+```
+Command    | (GY) Execute Python 2 Script
 Data       | /mystic/scripts/ml-askinvisible.mpy
-Access     | s30!s50                         
-Grid Event | Selected                        
+Access     | s30!s50
+Grid Event | Selected
+```
 
 Finally in the script itself, the format to check today's date is in DD/MM/YY (my own local format). If you want yours to check MM/DD/YY just make the format %m/%d/%y instead.
 
