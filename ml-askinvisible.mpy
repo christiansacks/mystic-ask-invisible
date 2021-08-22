@@ -1,0 +1,19 @@
+from mystic_bbs import *
+import time
+
+today = time.strftime("%d/%m/%y")
+lastCall = mci2str('LO')
+secLevel = mci2str('SL')
+
+if mci2str('IL') == "On" :
+  menucmd('GE','16')
+
+if lastCall == today :
+  gotoxy(1,24)
+  res = menucmd('-N','This ain\'t your first rodeo today... wanna go invisible? ')
+  if access("OK") :
+    upuser(50)
+    menucmd('GE','16')
+    upuser(int(secLevel))
+else :
+  writeln('First call of the day brother. Call again to be offered invisibleness.')
