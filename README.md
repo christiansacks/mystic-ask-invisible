@@ -20,4 +20,5 @@ Grid Event | Selected
 
 In the above example, I have chosen to allow users with s30 and above (upto s50) to get offered the choice to go invisible using this script, and if the user is s50 and above they will just be asked to go invisible by the Mystic built in.
 
+
 That just about wraps it up for this one.
