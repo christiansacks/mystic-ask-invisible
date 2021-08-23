@@ -1,7 +1,6 @@
 from mystic_bbs import *
-import time
 
-today = time.strftime("%d/%m/%y")
+today = mci2str('DA')
 lastCall = mci2str('LO')
 secLevel = mci2str('SL')
 
