@@ -18,7 +18,7 @@ Access     | s30!s50
 Grid Event | Selected
 ```
 
-Finally in the script itself, the format to check today's date is in DD/MM/YY (my own local format). If you want yours to check MM/DD/YY just make the format %m/%d/%y instead.
+In the above example, I have chosen to allow users with s30 and above (upto s50) to get offered the choice to go invisible using this script, and if the user is s50 and above they will just be asked to go invisible by the Mystic built in.
 
 
 That just about wraps it up for this one.
