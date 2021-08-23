@@ -1,7 +1,7 @@
 # mystic-ask-invisible
 If you want to offer users the option of logging in invisible, but not on their first call of the day, this should sort you out.
 
-## pre-configuration
+## configuration
 
 1. In mystic -cfg, in the Configuration->Login/Matrix dialog, set Invisible ACS to something high, like **s50** This will be the ACS that will be allowed to be invisible, and the ACS will will temporarily upgrade users to if they are allowed to use Invisible mode.
 ![image](https://user-images.githubusercontent.com/40481087/130405729-6b084423-aaa9-4707-9c09-6cc980528cbc.png)
