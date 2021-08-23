@@ -3,10 +3,9 @@ If you want to offer users the option of logging in invisible, but not on their 
 
 ## pre-configuration
 
-1. In mystic -cfg, in the Configuration->Login/Matrix dialog, set Invisible ACS to something high, like s50
-2. Make sure you have s50 (or whatever you chose in #1) defined in Editors->Security Level Editor
-
-Copy or Symlink ml-askinvisible.mpy to /mystic/scripts directory
+1. In mystic -cfg, in the Configuration->Login/Matrix dialog, set Invisible ACS to something high, like **s50** This will be the ACS that will be allowed to be invisible, and the ACS will will temporarily upgrade users to if they are allowed to use Invisible mode.
+2. Make sure you have s50 (or whatever you chose in #1) defined in Editors->Security Level Editor.
+3. Copy or Symlink ml-askinvisible.mpy to /mystic/scripts directory
 
 Make a new prelogin entry like this;
 
