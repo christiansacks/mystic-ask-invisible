@@ -3,7 +3,7 @@ If you want to offer users the option of logging in invisible, but not on their 
 
 ## configuration
 
-1. In mystic -cfg, in the Configuration->Login/Matrix dialog, set Invisible ACS to something high, like **s50** This will be the ACS that will be allowed to be invisible, and the ACS will will temporarily upgrade users to if they are allowed to use Invisible mode.
+1. In mystic -cfg, in the Configuration->Login/Matrix dialog, set Invisible ACS to something high, like **s50** This will be the ACS that will be allowed to be invisible, and the ACS we will temporarily upgrade users to if they are allowed to use Invisible mode.
 ![image](https://user-images.githubusercontent.com/40481087/130405729-6b084423-aaa9-4707-9c09-6cc980528cbc.png)
 2. Make sure you have s50 (or whatever you chose in #1) defined in Editors->Security Level Editor.
 ![image](https://user-images.githubusercontent.com/40481087/130405805-e91fc6a4-4e7d-4141-9be7-48eac08fa997.png)
